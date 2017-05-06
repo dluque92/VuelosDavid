@@ -1,0 +1,32 @@
+
+/* 
+    Created on : 05-may-2017, 9:48:01
+    Author     : david
+*/
+ul li{
+    list-style-type: none;
+    width: 10%;
+    position: relative;
+    float: left
+}
+
+input button {
+    position: relative;
+    object-position: 50% 10%; 
+    float: bottom
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    text-align: center
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
